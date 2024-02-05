@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(10, 112, 138);
+}
+*{
+   
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    color: #ddd;
+}
+        .top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #1E1E1E;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .icon {
+            cursor: pointer;
+            font-size: 20px;
+            margin-right: 50px;
+        }
+
+        .img{
+            margin-right: 100px;
+        }
+
+        .sub-menu {
+            position: fixed;
+            top: 10%;
+            left: 0;
+            width: 300px;
+            height: 100%;
+            max-height: 100%;
+            overflow-y: auto;
+            background-color: #1E1E1E;
+            display: none;
+            box-sizing: border-box;
+            padding: 20px;
+            list-style: none;
+        }
+
+        li{
+            margin-top: 40px;
+            text-align: center;
+            
+        }
+
+        .top-bar a img {
+            margin-left: px;
+        }
+
+       
+        .imagem{
+            margin-left: 130px;
+        }
+
+        .sair{
+            margin-left: auto;
+        }
+
+        .sub-menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sub-menu li {
+            margin-bottom: 10px;
+        }
+
+        .sub-menu li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            padding: 5px 0;
+            display: block;
+        }
+
+        .sub-menu li a:hover {
+            background-color: #A5A5A5;
+        }
+
+        .cadastroFuncionario{
+            width: 25vw;
+            height: 40vh;   
+            display: flex;
+            margin-top: 320px;
+            margin-left: 700px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+
+        
+        .formulario  .titulo { 
+            color: #ffffff;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+          }
+          .formulario {
+             
+            max-width: 500px;
+            margin: auto;
+            background: #1E1E1E;
+            overflow: hidden;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 40px rgb(0, 0, 0);
+          }
+          :focus{outline: none;}
+          .label { 
+            float: left; 
+            width: 100%; 
+            margin-bottom: 25px; 
+            position: relative;
+          }
+          .input-bordas{
+            
+            font: 15px/24px "Lato", Arial, sans-serif; 
+            color: #333; 
+            width: 100%; 
+            box-sizing: border-box; 
+            letter-spacing: 1px;
+            border: 1px solid #ccc; 
+            padding: 7px 14px 9px; 
+            transition: 0.4s;
+          }
+          .input-bordas:focus ~ .focus-border:before,
+          .input-bordas:focus ~ .focus-border:after{width: 100%; transition: 0.2s; transition-delay: 0.6s;}
+          .input-bordas:focus ~ .focus-border:after{transition-delay: 0.2s;}
+          .input-bordas:focus ~ .focus-border i:before,
+          .input-bordas:focus ~ .focus-border i:after{height: 100%; transition: 0.2s;}
+          .input-bordas:focus ~ .focus-border i:after{transition-delay: 0.4s;}
+          .button-form { 
+            background-color: white;
+            padding: 0.5em 1.3em;
+            color: #fff;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            color:rgb(10, 112, 138);
+            box-shadow: 0px 10px 40px rgb(10, 112, 138);
+            border-radius: 8px;
+          }
+          .borda-inversa {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            -webkit-transition-property: background;
+            transition-property: background;
+            
+          }
+          
+         
