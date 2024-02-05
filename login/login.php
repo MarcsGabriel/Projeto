@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylelogin.css">
-    <title>Login GEPI</title>
+    <title>Login GEP</title>
 </head>
 <body>
     <form action="testeLogin.php" method="POST"> 
@@ -31,6 +31,7 @@
                     <div class = "recuperar">
                         <a href="confirmaEmail.php">Esqueceu a senha?</a><br><br>
                     </div>
+
 
                 </div>
             </div>
